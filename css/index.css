@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron{
+    width: 100%;
+    padding: 1rem 1rem;
+    margin-bottom: 0;
+    background-color: #28d1c3;
+    text-align: center;
+}
+
+#btnNuevo{
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    overflow-x: scroll;
+}
+
+th{
+    color: black;
+}
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #38e68f;  /* fallback for old browsers */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.button:hover{
+    background: #0cb37b;  /* fallback for old browsers */
+}
+
+.button_text, .button_icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.button_icon{
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#tablaEmpleados{
+    overflow-x: hidden;
+}

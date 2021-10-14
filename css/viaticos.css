@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container1{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+#container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#col{
+    flex-basis: 50%;
+}
+
+#container img{
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#container h3{
+    margin-left: -20px;
+    width: 500px;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.text p{
+    font-weight: bold;
+}
+
+.texto{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.texto:nth-child(2){
+    width: 100%;
+}
+
+.text.uno {
+    margin-top: 0px;
+}
+
+.text.uno .texto:nth-child(1){
+    padding-right: 46px;
+}
+
+.text.uno p{
+    font-weight: bold;
+}
+
+.text.dos .texto{
+    display: flex;
+    width: 50%;
+}
+
+.text.tres .texto{
+    width: 100%;
+    text-align: center;
+}
+
+.text.cuatro .texto{
+    width: 100%;
+}
+
+.text.cuatro .texto:nth-child(1){
+    width: 20%;
+}
+
+.text.cuatro{
+    margin-top: 0px;
+}
+
+.text.cinco{
+    margin-top: 0px;
+}
+
+.text.cinco .texto{
+    width: 25%;
+}
+
+.button1{
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background: #38e68f;  /* fallback for old browsers */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+form{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#buscarE{
+    height: 50px;
+    width: 300px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.text.seis .texto{
+    width: 100%;
+    text-align: center;
+}
+
+.text.siete{
+    margin-top: 0px;
+}
+
+.text.siete .texto{
+    width: 50%;
+}
+
+.text.ocho{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text.ocho .texto{
+    width: 100%;
+}
+
+.tbodyP{
+    margin-top: 100px;
+}

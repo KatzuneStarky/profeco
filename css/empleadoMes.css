@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.uno{
+    display: flex;
+}
+
+#nombre, #credencial{
+    margin-bottom: 70px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+
+#uAdmin, #puesto{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;   
+}
+
+.noC, .name{
+    margin-left: 70px;
+}
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background: #38e68f;  /* fallback for old browsers */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.button1{
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background: #38e68f;  /* fallback for old browsers */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.button:hover{
+    background: #0cb37b;  /* fallback for old browsers */
+}
+
+.button_text, .button_icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.button_icon{
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+form{
+    display: flex;
+}
+
+#buscarE{
+    height: 50px;
+    width: 300px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#linea{
+    width: 400px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+#algo{
+    font-size: 15px;
+}
